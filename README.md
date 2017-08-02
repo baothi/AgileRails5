@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# AgileRails5
+AgileRails5
+>>>>>>> f39a426d4b26dbbb820201ba5721bb23e344344f
