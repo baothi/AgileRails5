@@ -36,6 +36,14 @@ class ProductsController < ApplicationController
       end
     end
   end
+  
+  def who_bought
+    @product = Product.find(params[:id])
+    respond_to do |format|
+      format.atom
+      format.xml { render :xml => @product }
+    end
+  end
 
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
